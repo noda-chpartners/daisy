@@ -1,0 +1,23 @@
+{
+  "name": "Daisy",
+  "short_name": "Daisy",
+  "description": "和歌山市杉ノ馬場のメンズエステ",
+  "lang": "ja",
+  "display": "browser",
+  "theme_color": "#f4efe8",
+  "background_color": "#f4efe8",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180",
+      "purpose": "any"
+    }
+  ]
+}
