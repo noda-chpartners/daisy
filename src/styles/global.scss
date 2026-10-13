@@ -634,14 +634,13 @@ figcaption {
 .atmosphere-panel {
   position: relative;
   z-index: 1;
-  width: min(540px, calc(100% - var(--gutter) * 2));
-  margin-top: -112px;
+  width: min(36em, calc(100% - var(--gutter) * 2));
+  margin-top: clamp(64px, 9vh, 112px);
   margin-left: max(var(--gutter), calc((100% - var(--max)) / 2));
-  padding: clamp(28px, 4vw, 48px) clamp(24px, 3vw, 40px) clamp(8px, 2vw, 12px) 0;
-  background: var(--ivory);
+  padding: 0;
 
   h2 {
-    margin-bottom: 18px;
+    margin-bottom: clamp(22px, 3vw, 36px);
   }
 }
 
@@ -959,11 +958,6 @@ figcaption {
 
   .section-intro .index {
     padding-top: 0;
-  }
-
-  .atmosphere-panel {
-    margin-top: -72px;
-    padding-right: 0;
   }
 
   .hours td {
